@@ -1,4 +1,4 @@
-Terraform AWS Project: Zero to Hero
+Terraform AWS Project
 
 This project is part of the Terraform Zero to Hero course, where I have developed an end-to-end solution to automate the provisioning of AWS cloud resources using Terraform. The project includes the deployment of a basic Python application on an EC2 instance within a custom VPC, along with the integration of a remote backend for enhanced maintainability and state management.
 
