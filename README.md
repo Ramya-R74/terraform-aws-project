@@ -129,15 +129,15 @@ This project is licensed under the MIT License.
 
 Acknowledgements
 
-Special thanks to the Terraform Zero to Hero course instructors for their guidance and insights.
+Special thanks to Abhishek Veermalla for the Terraform Zero to Hero course and for the guidance and insights.
 
 Connect with Me
 
 Feel free to reach out for any questions or collaborations:
 
-GitHub: YourUsername
+GitHub: https://github.com/Ramya-R74
 
-LinkedIn: YourLinkedIn
+LinkedIn: https://www.linkedin.com/in/ramya-r-5849482a2/
 
-Hashnode Blog: YourHashnode
+Hashnode Blog: https://hashnode.com/@Ramya-R
 
