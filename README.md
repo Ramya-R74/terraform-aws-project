@@ -13,11 +13,11 @@ Welcome to the **Terraform AWS Project**! 🚀 This project is part of the **Ter
 - **Custom VPC**: Set up a virtual private cloud to isolate and secure resources.  
 
 ### 🤖 Deployment Automation
-Terraform scripts handle the creation, configuration, and deployment of the Python application on an EC2 instance.
+- Terraform scripts handle the creation, configuration, and deployment of the Python application on an EC2 instance.
 
 ### 🔒 Remote Backend Integration
-- Remote backend using S3 for storing the Terraform state file.  
-- Integrated **DynamoDB** to handle Terraform lock state, ensuring safe and reliable state management.
+- **Remote Backend**: Store the Terraform state file in S3 for enhanced maintainability.  
+- **DynamoDB Integration**: Manage Terraform lock state for safe and reliable state management.
 
 ---
 
@@ -45,6 +45,7 @@ Terraform scripts handle the creation, configuration, and deployment of the Pyth
 ---
 
 ## ✅ Prerequisites
+
 Before running the project, ensure you have:
 1. **Terraform** installed on your local machine.  
 2. An **AWS account** with permissions to provision resources.  
@@ -59,24 +60,21 @@ Before running the project, ensure you have:
 git clone https://github.com/Ramya-R74/terraform-aws-project.git
 cd terraform-aws-project
 
-## ⚙️ Initialize Terraform
+---
+⚙️ Initialize Terraform
 Initialize the working directory and download the required providers:
 terraform init
-
-## 🔍 Plan the Deployment
+🔍 Plan the Deployment
 Review the execution plan before applying changes:
 terraform plan
-
-## ▶️ Apply the Configuration
+▶️ Apply the Configuration
 Provision the AWS resources:
 terraform apply
-
-## 🗑️ Destroy the Resources
-Clean up resources to avoid unnecessary costs
+🗑️ Destroy the Resources
+Clean up resources to avoid unnecessary costs:
 terraform destroy
-📂 Project Structure
-
-## File structre
+---
+## 📂 Project Structure
 terraform-aws-project/
 ├── main.tf         # Main Terraform configuration file
 ├── variables.tf    # Variables used across the project
@@ -84,18 +82,16 @@ terraform-aws-project/
 ├── backend.tf      # Remote backend configuration
 ├── modules/        # Custom modules for better reusability
 └── README.md       # Project documentation
-
+---
 🎓 Key Learnings
 Automating AWS resource provisioning with Terraform.
 Implementing best practices for state management using remote backends.
 Enhancing deployment with DynamoDB lock state integration.
 Designing an isolated and secure infrastructure using a custom VPC.
-
 🚀 Future Improvements
 Integrate CI/CD pipelines for automated deployments.
 Add support for multiple environments (e.g., staging, production).
 Explore Terraform workspaces for multi-environment setups.
-
 📜 License
 This project is licensed under the MIT License.
 
@@ -108,6 +104,8 @@ Feel free to connect for any questions or collaborations:
 GitHub: Ramya-R74
 LinkedIn: Ramya R
 Hashnode Blog: Ramya-R
-```bash
+---bash
+
+
 
 
