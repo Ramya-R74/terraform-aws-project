@@ -58,30 +58,33 @@ Before running the project, ensure you have:
 ### 📦 Clone the Repository
 
 git clone https://github.com/Ramya-R74/terraform-aws-project.git
-cd terraform-aws-project
+- cd terraform-aws-project
 
 ---
 ⚙️ Initialize Terraform
-Initialize the working directory and download the required providers:
-terraform init
+- Initialize the working directory and download the required providers:
+- terraform init
+  
 🔍 Plan the Deployment
-Review the execution plan before applying changes:
-terraform plan
+- Review the execution plan before applying changes:
+- terraform plan
+  
 ▶️ Apply the Configuration
-Provision the AWS resources:
-terraform apply
+- Provision the AWS resources:
+- terraform apply
+  
 🗑️ Destroy the Resources
-Clean up resources to avoid unnecessary costs:
-terraform destroy
+- Clean up resources to avoid unnecessary costs:
+- terraform destroy
 ---
 ## 📂 Project Structure
 terraform-aws-project/
-├── main.tf         # Main Terraform configuration file
-├── variables.tf    # Variables used across the project
-├── outputs.tf      # Outputs from the Terraform scripts
-├── backend.tf      # Remote backend configuration
-├── modules/        # Custom modules for better reusability
-└── README.md       # Project documentation
+-├── main.tf         # Main Terraform configuration file
+-├── variables.tf    # Variables used across the project
+-├── outputs.tf      # Outputs from the Terraform scripts
+-├── backend.tf      # Remote backend configuration
+-├── modules/        # Custom modules for better reusability
+-└── README.md       # Project documentation
 ---
 🎓 Key Learnings
 Automating AWS resource provisioning with Terraform.
