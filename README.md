@@ -76,7 +76,7 @@ cd terraform-aws-project
 🗑️ Destroy the Resources
     
     terraform destroy
-````
+```
     
 ## 📂 Project Structure
 ```bash
