@@ -59,11 +59,11 @@ Before running the project, ensure you have:
 ```bash
 git clone https://github.com/Ramya-R74/terraform-aws-project.git
 cd terraform-aws-project
-```
 
+```
 ⚙️ Initialize Terraform
    
-    `terraform init`
+    terraform init
   
 🔍 Plan the Deployment
     
@@ -71,11 +71,12 @@ cd terraform-aws-project
   
 ▶️ Apply the Configuration
     
-    `terraform apply`
+    terraform apply
   
 🗑️ Destroy the Resources
     
-    `terraform destroy`
+    terraform destroy
+````
     
 ## 📂 Project Structure
 ```bash
