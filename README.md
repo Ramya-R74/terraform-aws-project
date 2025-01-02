@@ -62,19 +62,19 @@ cd terraform-aws-project
 ```
 
 ⚙️ Initialize Terraform
-   Initialize the working directory and download the required providers:
+   
     `terraform init`
   
 🔍 Plan the Deployment
-    Review the execution plan before applying changes:
+    
    `terraform plan`
   
 ▶️ Apply the Configuration
-    Provision the AWS resources:
+    
     `terraform apply`
   
 🗑️ Destroy the Resources
-    Clean up resources to avoid unnecessary costs:
+    
     `terraform destroy`
     
 ## 📂 Project Structure
@@ -97,7 +97,7 @@ terraform-aws-project/
 - Add support for multiple environments (e.g., staging, production).
 - Explore Terraform workspaces for multi-environment setups.
 - 
-#📜 License
+📜 License
 This project is licensed under the MIT License.
 
 💬 Acknowledgements
