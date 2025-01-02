@@ -55,8 +55,59 @@ Before running the project, ensure you have:
 ## 🚀 Getting Started
 
 ### 📦 Clone the Repository
-```bash
-git clone <repository_url>
+
+git clone https://github.com/Ramya-R74/terraform-aws-project.git
 cd terraform-aws-project
+
+## ⚙️ Initialize Terraform
+Initialize the working directory and download the required providers:
+terraform init
+
+## 🔍 Plan the Deployment
+Review the execution plan before applying changes:
+terraform plan
+
+## ▶️ Apply the Configuration
+Provision the AWS resources:
+terraform apply
+
+## 🗑️ Destroy the Resources
+Clean up resources to avoid unnecessary costs
+terraform destroy
+📂 Project Structure
+
+## File structre
+terraform-aws-project/
+├── main.tf         # Main Terraform configuration file
+├── variables.tf    # Variables used across the project
+├── outputs.tf      # Outputs from the Terraform scripts
+├── backend.tf      # Remote backend configuration
+├── modules/        # Custom modules for better reusability
+└── README.md       # Project documentation
+
+🎓 Key Learnings
+Automating AWS resource provisioning with Terraform.
+Implementing best practices for state management using remote backends.
+Enhancing deployment with DynamoDB lock state integration.
+Designing an isolated and secure infrastructure using a custom VPC.
+
+🚀 Future Improvements
+Integrate CI/CD pipelines for automated deployments.
+Add support for multiple environments (e.g., staging, production).
+Explore Terraform workspaces for multi-environment setups.
+
+📜 License
+This project is licensed under the MIT License.
+
+💬 Acknowledgements
+A big thanks to Abhishek Veermalla for the excellent Terraform Zero to Hero course and guidance. 🙏
+
+🌐 Connect with Me
+Feel free to connect for any questions or collaborations:
+
+GitHub: Ramya-R74
+LinkedIn: Ramya R
+Hashnode Blog: Ramya-R
+```bash
 
 
